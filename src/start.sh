@@ -6,7 +6,7 @@ echo "Starting WebUI API"
 TCMALLOC="$(ldconfig -p | grep -Po "libtcmalloc.so.\d" | head -n 1)"
 export LD_PRELOAD="${TCMALLOC}"
 export PYTHONUNBUFFERED=true
-python /stable-diffusion-webui/webui.py \
+python /stable-diffusion-webui-forge/webui.py \
   --xformers \
   --no-half-vae \
   --skip-python-version-check \
