@@ -12,7 +12,7 @@ python /stable-diffusion-webui-forge/webui.py \
   --skip-python-version-check \
   --skip-torch-cuda-test \
   --skip-install \
-  --ckpt /model.safetensors \
+  --ckpt /stable-diffusion-webui-forge/models/RealVisXL_V5.0_fp16.safetensors \
   --opt-sdp-attention \
   --disable-safe-unpickle \
   --port 3000 \
