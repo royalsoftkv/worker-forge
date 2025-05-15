@@ -1,4 +1,4 @@
-# forge web-ui
+# forge web-ui test
 FROM python:3.10.14-slim as build_final_image
 
 ENV DEBIAN_FRONTEND=noninteractive \
